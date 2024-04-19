@@ -54,6 +54,18 @@ code {
   color:hsl(0, 94%, 66%) !important;
 }
 
+.cs-navlink-2::before{
+  content: "";
+  display: block;
+  width: 150%;
+  height: 1px;
+  position: absolute;
+  background-color: hsl(229, 8%, 60%);
+  bottom: 0;
+  left: -25%;
+  z-index: -1;
+}
+
 .cs-btn{
   font-family: 'Rubik', sans-serif !important;
   border: solid 2px hsl(0, 94%, 66%) !important;
@@ -130,6 +142,13 @@ code {
 
 .cs-b-2{
   position: relative;
+}
+
+.cs-br{
+  background-image: linear-gradient(to right, hsl(229, 8%, 80%) 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 12px 4px;
+  background-repeat: repeat-x;
 }
 
 .cs-b-2::before{
