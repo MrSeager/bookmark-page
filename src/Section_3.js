@@ -43,7 +43,7 @@ const Section_3 = () => {
                 </Col>
                 <Col xs={12}
                      lg={3}>
-                    <Card className='border-0 shadow align-items-center pt-3 pb-3 mb-4 mt-5'>
+                    <Card className='border-0 shadow align-items-center pt-3 pb-3 mb-4 mt-3 mt-lg-5'>
                         <Card.Img fluid variant="top" src={ImgOp} alt="logo" className='w-50 mb-3' />
                         <Card.Body className='mb-4 cs-br w-100'>
                             <Card.Title>Add to Opera</Card.Title>
