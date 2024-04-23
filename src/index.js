@@ -15,6 +15,7 @@ import Section_4 from './Section_4';
 import Footer from './Footer';
 
 import ImgLogo from './images/logo-bookmark.svg';
+import ImgToggle from './images/icon-hamburger.svg';
 
 const MainPage = () => {
   const parentRef = useRef(null)
@@ -32,7 +33,9 @@ const MainPage = () => {
           <Navbar.Brand href="#">
             <Image src={ImgLogo} alt="logo" className="img-fluid" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="collapsibleNavbar" className='' />
+          <Navbar.Toggle aria-controls="collapsibleNavbar" className='cs-toggler border-0 p-2'>
+            <Image fluid src={ImgToggle} alt='toggle' />
+          </Navbar.Toggle>
           <Navbar.Collapse id="collapsibleNavbar" className='cs-collapse mt-3'>
             <Nav className='ms-auto gap-4 justify-content-between align-items-center'>
               <Nav.Link className='cs-navlink cs-fw text-uppercase' href="#">Features</Nav.Link>
