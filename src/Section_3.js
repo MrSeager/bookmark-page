@@ -14,7 +14,7 @@ const Section_3 = () => {
     return (
         <Container id='s3' className='mb-5 mt-5 pt-5 text-center'>
             <h4 className='h2'>Download the extension</h4>
-            <p className='cs-fw cs-c w-50 mx-auto mb-5'>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+            <p className='cs-fw cs-c w-75 mx-auto mb-5'>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
             got a favourite you’d like us to prioritize.</p>
             <Row>
                 <Col>

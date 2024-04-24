@@ -10,9 +10,9 @@ const Section_4 = () => {
     return (
         <Container id='s4' className='mb-5 mt-5 d-flex flex-column align-items-center'>
             <h4 className='h2'>Frequently Asked Questions</h4>
-            <p className='w-50 mt-4 mb-5 text-center cs-c cs-fw'>Here are some of our FAQs. If you have any other questions you’d like 
+            <p className='w-75 mt-4 mb-5 text-center cs-c cs-fw'>Here are some of our FAQs. If you have any other questions you’d like 
             answered please feel free to email us.</p>
-            <Accordion flush defaultActiveKey='0' className='w-50 mb-5 cs-b cs-bt'>
+            <Accordion flush  className='cs-w-2 mb-5 cs-b cs-bt'>
                 <Accordion.Item eventKey='0'>
                     <Accordion.Header>What is Bookmark?</Accordion.Header>
                     <Accordion.Body className='cs-c mt-3 mb-3'>

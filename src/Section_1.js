@@ -15,7 +15,7 @@ const Section_1 = () => {
                 <Col xs={{span: 12, order: 3}}
                      lg={{span: 5, order: 1}}
                      className='d-flex flex-column justify-content-center mb-5'>
-                    <h1 className='display-4 cs-fw mb-3 text-center text-lg-start'>A Simple Boolmark Manager</h1>
+                    <h1 className='display-4 cs-fw mb-3 text-center text-lg-start'>A Simple Bookmark Manager</h1>
                     <p className='mb-3 cs-fw cs-c text-center text-lg-start'>A clean and simple interface to organize your favourite websites. Open a new 
                     browser tab and see your sites load instantly. Try it for free.</p>
                     <div className='d-flex flex-row justify-content-center justify-content-lg-start'>

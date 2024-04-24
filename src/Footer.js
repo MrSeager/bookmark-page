@@ -34,8 +34,8 @@ const SubSec = () => {
 
     return (
         <Container fluid className='p-5 d-flex flex-column align-items-center cs-bg-2'>
-            <p className='cs-ls text-uppercase text-light mb-4'>35,000+ already joined</p>
-            <h4 className='h2 text-light w-50 text-center mb-4'>Stay up-to-date with what we’re doing</h4>
+            <p className='cs-ls text-uppercase text-center text-light mb-4'>35,000+ already joined</p>
+            <h4 className='h2 text-light w-75 text-center mb-4'>Stay up-to-date with what we’re doing</h4>
             <Form noValidate validated={validated} onSubmit={handleSubmit} className='cs-w'>
                 <Row>
                     <Col xs={12}

@@ -233,3 +233,17 @@ body::-webkit-scrollbar-thumb{
 .cs-w{
   width: 35%;
 }
+
+.cs-w-2{
+  width: 50%;
+}
+
+@media (max-width: 900px){
+  .cs-w{
+    width: 75%;
+  }
+
+  .cs-w-2{
+    width: 75%;
+  }
+}
